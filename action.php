@@ -9,10 +9,10 @@
 // must be run within Dokuwiki
 if(!defined('DOKU_INC')) die();
 
-require (dirname(__FILE__) . '/../model/sphinxsearch.php');
-require (dirname(__FILE__) . '/../view/searchresults.php');
+require (dirname(__FILE__) . '/model/sphinxsearch.php');
+require (dirname(__FILE__) . '/view/searchresults.php');
 
-class action_plugin_bettersearch_handleWikiIndexer extends DokuWiki_Action_Plugin {
+class action_plugin_bettersearch extends DokuWiki_Action_Plugin {
     private $sphinx;
 
 
