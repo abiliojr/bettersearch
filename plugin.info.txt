@@ -1,6 +1,6 @@
 base   bettersearch
 author Abilio Marques
-date   2015-10-17
+date   2015-10-21
 name   Better Search for DokuWiki
 desc   Improved search engine for DokuWiki, based on Sphinx Search (Real-time)
 url    https://github.com/abiliojr/bettersearch
